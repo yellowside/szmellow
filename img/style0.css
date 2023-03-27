@@ -1,0 +1,967 @@
+﻿@charset "utf-8";
+/* CSS Document */
+html { overflow-x:hidden;} 
+body,td,th {font-family:"宋体";font-size: 12px;color:#555555;line-height:1.8em;}
+body {margin:0;padding:0; background: #ececec;}
+form{margin:0;padding:0;}
+a{ color:#555555;text-decoration:none;}
+a:hover{color:#0000FF;}
+li,ul,dl{ list-style:none; margin:0; padding:0;}
+img {border:none;vertical-align: middle;}
+input {vertical-align:middle}
+h1,h2,h3 {margin:0; padding:0;}
+.clear {clear:both;}
+
+
+#wrap {
+width:1003px;
+margin:0 auto;
+}
+#top {
+	height:93px;
+	background-color: #FFFFFF;
+}
+#logo {
+float:left;
+padding:15px 0 0 20px;
+}
+#top .right {
+float:right;
+width:250px;
+padding:5px 20px 0 0;
+}
+#top .right a {
+color:#010101
+}
+
+#banner {
+}
+
+
+#main .i_left {
+float:left;
+width:203px;
+border-right: 1px solid #e1e1e1;
+z-index:20;	
+}
+#main .i_mid {
+float:left;
+width:300px;
+}
+#main .i_right {
+	float:right;
+	width:799px;
+	z-index:10;
+}
+
+#main {
+	background:#fff url(../img/bg_main.gif) repeat-x 0 0;	
+	padding-top: 20px;
+}
+#main .leftside {
+float:left;
+width:203px;
+}
+#main .rightside {
+float:right;
+width:799px;
+
+}
+
+
+.title {
+	height:33px;
+	line-height:33px;
+	background:url(../img/ico_title.gif) no-repeat 15px center;
+	font-size: 14px;
+	padding: 0 0 0 40px;
+	font-weight: bold;
+	color: #1757b1;
+	text-transform: uppercase;
+	border-bottom: 1px solid #e1e1e1;
+}
+
+.title .en {
+color:#a5a5a5;
+font-weight:normal;
+padding-left:10px;
+font-family:Arial, Helvetica, sans-serif;
+font-size:12px;
+}
+.title .more {
+float:right;
+padding:10px 10px 0 0;
+}
+.title .cur {
+float:right;
+height:33px;
+line-height:33px;
+padding-right:15px;
+}
+
+.path {
+padding:0 20px;
+height:33px;
+line-height:33px;
+border-bottom: 1px solid #e1e1e1;
+}
+
+
+.i_about {
+	float: left;
+	width: 448px;
+}
+.i_about .pic {
+float:right;
+margin-top:10px;
+}
+.i_conatct {
+padding: 0 10px;
+}
+
+
+.leftnav_bg {
+background:url(../img/bg_left.gif) repeat-x 0 0;
+margin-bottom:10px;
+}
+.leftnav {
+width:200px;
+margin:0 auto;
+padding:8px 0;
+}
+.leftnav .tit {
+background:url(../img/bg_left_title.gif) no-repeat 0 0;
+height:33px;
+line-height:33px;
+padding-left:30px;
+color:#017ea0;
+font-weight:bold;
+} 
+.leftnav ul {
+}
+.leftnav li {
+padding:0 0 0 20px;
+border-bottom:1px dotted #b1b1b1;
+}
+.leftnav li a {
+display:block;
+height:35px;
+line-height:35px;
+padding:0 0 0 22px;
+font-size:14px;
+background:url(../img/gif-0170.gif) no-repeat 0 center;
+}
+.leftnav li ul {
+background:none;
+width:auto;
+margin:0;
+}
+.leftnav li a:hover {
+color:#0000FF;
+}
+.leftnav li .now {
+color:#017EA0;
+font-weight:bold;
+}
+.leftnav li ul {   
+list-style:none;   
+text-align:left;
+padding:0;
+margin:0;
+width:auto;  
+} 
+.leftnav ul ul {
+padding:0 0 10px 15px;
+} 
+.leftnav ul ul li a {
+background:url(../img/class3.gif) no-repeat 0 8px;
+height:auto!important;
+height:29px;
+min-height:29px;
+line-height:29px;
+padding:0 0 0 15px;
+}
+.leftnav li ul a:hover {   
+color:#0000FF;
+background:url(../img/class3.gif) no-repeat 0 8px;
+}
+.leftnav ul ul li .now {
+color:#0000FF;
+background:url(../img/class3.gif) no-repeat 0 8px;
+font-weight:normal;
+}
+
+.i_news {
+float:right;
+width:350px;
+}
+.i_news h1{
+font-size:12px;
+}
+.i_news h1 span {
+font-size:11px;
+font-family:Verdana, Arial, Helvetica, sans-serif;
+padding-left:10px;
+}
+.i_news .pic {
+border:2px solid #fff;
+}
+.i_news ul {
+padding-top:10px;
+}
+.i_news li {
+ height: 28px;
+    line-height: 28px;   
+}
+.i_news li a {
+background:url(../img/ico_news.gif) no-repeat scroll 10px center;
+padding:0 0 0 20px;
+ height: 28px;
+    line-height: 28px;
+	float:left;
+}
+.i_news li .time {
+float:right;
+font-family:Verdana,Arial,Helvetica,sans-serif;
+font-size:11px;
+padding-right:10px;
+}
+
+
+.i_product .tst{
+display:block;
+height:37px;
+line-height:37px;
+border-bottom:1px solid #e1e1e1;
+color:#1670ae;
+font-size:14px;
+font-weight:bold;
+background:url(../img/ico_product.gif) no-repeat 155px center;
+padding-left:10px;
+
+}
+.i_product a:hover {
+color:#0000FF;
+}
+.proclasstree { text-align: left;	padding: 0 10px;  font-size:14px;}
+.proclasstree li {	line-height:30px;}
+.proclasstree li img {vertical-align:middle;}
+
+
+.i_app ul {
+
+height:170px;
+}
+.i_app li {
+width:340px;
+float:left;
+padding-top:10px;
+padding-right:10px;
+background:url(../img/bg_app.gif) no-repeat right 0;
+}
+.i_app li img {
+border:1px solid #d1d1d1;
+padding:2px;
+}
+
+
+#bottom {
+padding:0 15px;
+background:url(../img/bg_btm.gif) no-repeat 0 0;
+height:35px;
+line-height:35px;
+color:#fff;
+text-align:center;
+}
+#bottom .copy {
+float:left;
+}
+#bottom a {
+padding:0 5px;
+color:#fff;
+}
+#bottom .link {
+float:right;
+text-align:right;
+}
+#bottom .link .input {
+font-size:11px;
+font-weight:bold;
+color:#024b9c;
+}
+.leftlink {
+margin-top:15px;
+}
+
+.content {
+font-size:13px;
+padding:5px 20px;
+}
+.content th, .content td {
+font-size:13px;
+}
+.intro {
+padding:10px 15px;
+height:auto!important;
+height:260px;
+min-height:260px;
+}
+.news_list {
+padding:10px 0;
+font-size:12px;
+}
+.news_list td {
+font-size:12px;
+}
+
+.news_list li {
+border-bottom:1px dashed #d1d1d1;
+height:30px;
+line-height:30px;
+background:#fbfbfb;
+}
+.news_list .no {
+float:left;
+width:70px;
+text-align:center;
+font-size:12px;
+height:30px;
+line-height:30px;
+color:#666;
+}
+.news_list li a {
+float:left;
+font-size:14px;
+height:30px;
+line-height:30px;
+width:480px;
+background: url(../img/ico_news.gif) no-repeat scroll 15px center;
+padding-left: 30px;
+}
+.news_list li .time {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+padding:0 10px 0 0;
+float:right;
+height:30px;
+line-height:30px;
+color:#666;
+}
+
+ul#hovershow {
+clear:both;
+display:inline;
+float:left;
+list-style-type:none;
+margin:0 auto;
+padding:10px 0;
+position:relative;
+width:660px;
+}
+ul#hovershow li {
+display:inline;
+float:left;
+height:210px;
+padding-left:25px;
+width:180px;
+}
+ul#hovershow li a {
+display:block;
+height:170px;
+width:170px;
+border:1px solid #D1D1D1;
+text-align:center;
+}
+ul#hovershow li span {
+display:block;
+height:22px;
+text-align:center;
+width:180px;
+}
+
+.products_list { padding:15px 0;}
+.products_list li{ float:left; height:200px; }
+.products_list li .text {padding:2px; margin:2px 20px; font-size:13px; background:#ECECEC; text-align:center; overflow:hidden; width:286px; }
+.products_list li .text .tit { background:#370e1d; font-weight:bold; height:30px; line-height:30px; padding:0 12px;}
+.products_list li .text .more {float:right; height:30px; line-height:30px; font-size:12px;}
+.products_list li .text .con {padding:2px 12px;}
+.products_list li p {display:block; border:1px solid #999; padding:2px; margin:0 20px; width:284px; height:150px; text-align:center; overflow:hidden}
+.products_list li p img {margin:1px }
+.product {
+margin-top:10px;
+}
+
+.product .name {
+background:#ECECEC;
+border-bottom:1px solid #d1d1d1;
+font-weight:bold;
+padding:5px 20px;
+margin-bottom:10px;
+}
+.product .name .back {
+float:right;
+font-weight:normal;
+}
+.product .bigpic {
+text-align:center;
+padding:20px 0;
+}
+.product h1 {
+background:#F7F7F7 url(../img/bg03.gif) repeat-x 0 bottom;
+height:30px;
+line-height:30px;
+padding:0 15px;
+font-size:16px;
+color:#024B9C;
+}
+.product .con {
+padding:10px 15px;
+}
+.line {
+border-bottom:1px dotted #d1d1d1;
+}
+
+.news_detail {
+padding:15px;
+}
+.news_detail h1 {
+font-size:14px;
+color:#333;
+text-align:center;
+height:33px;
+line-height:33px;
+}
+.news_detail .time {
+text-align:center;
+color:#999;
+border-bottom:1px dashed #c1c1c1;
+margin-bottom:10px;
+}
+
+.prolist {
+    line-height: 26px;
+}
+.prolist li {
+    display: inline;
+    float: left;
+    padding:0 10px;
+    position: relative;
+	height:210px;
+}
+.prolist li a {
+    background-color: #EEEEEE;
+    display: block;
+    padding: 6px;
+    position: relative;
+    text-align: center;
+    width:210px;
+    z-index: 2;
+	color:#333;
+	font-size:12px;
+}
+.prolist li span {
+display:block;
+}
+.prolist li a:hover {
+    background-color: #2D6DC6;
+    color: #FFFFFF;
+	}
+.prolist li th,.prolist li td {
+font-size:12px;
+}
+.prolist p {
+margin:0;
+padding:0;
+}
+
+.page {
+clear:both;
+padding:5px 20px;
+text-align:center;
+margin:5px 0 20px 0;
+text-transform:uppercase;
+}
+.page a {
+text-decoration:none;
+padding:0 5px;
+}
+
+.blue {
+color:#1757B1;
+font-size:14px;
+font-weight:bold;
+}
+
+
+.nav_x { width:100%; height:54px;}
+#nav { list-style-type: none;  width:1003px; height:94px; margin:0 auto; position:relative; background:url(../img/x_nav_c_bg1.gif) repeat-x 0 0; z-index:99999; overflow:hidden;}
+#nav a {
+ display: block; text-align:center; color:#FFF; font-size:14px; font-weight:bold;
+}
+#nav ul { position:absolute; top:1px; height:54px; padding-left:20px;}
+#nav ul li {
+ float: left; text-align:center; cursor:pointer; display:block; width:90px; line-height:54px; padding:0 10px;
+}
+#nav ul li a:hover,.cur_nav { background:url(../img/x_nav_ahover.gif) no-repeat center; color:#0050A3;}
+#nav ul li ul {
+ list-style-type: none;
+ text-align:left;
+ width: 969px!important; background:#fff;
+filter:alpha(opacity=75);
+	-moz-opacity:0.75;
+	-khtml-opacity: 0.75;
+	opacity: 0.75;
+
+ position: absolute; top:54px; left: -999px; font-size:12px!important; font-style:normal!important; overflow:hidden!important;
+}
+#nav ul li ul li{
+  float: left; width:auto!important; font-size:12px!important; font-style:normal!important; 
+}
+#nav ul li ul a{
+ display: block; text-align:left; color:#333; font-size:12px!important; font-weight:normal!important; background:none!important;
+}
+#nav ul li ul a:hover { text-decoration:underline;}
+#nav em { font-style:normal; float:left; color:#727171;}
+#nav ul li:hover ul {
+ left:0%;
+}
+#nav ul li.sfhover ul {
+ left:0%;
+}
+.mqj {}
+.mqj li { width:100px!important;}
+
+.bann { width:985px; height:295px; margin:12px auto 0 auto;}
+<HTML>
+<HEAD>
+<TITLE>ļ</TITLE>
+<style type="text/css">
+body fieldset{  font-size: 9pt}
+td{font-size:9pt}
+ul li{float:left;margin-right:10px;padding:3px;vertical-align:middle}
+.bton{border-width=1px;border-style:solid;border-left-color:#ffffff;border-top-color:#ffffff;border-right-color:#000000;border-bottom-color:#000000}
+.btoff{border:1px solid #EEEEEE}
+.btdown{border-width=1px;border-style:solid;border-left-color:#000000;border-top-color:#000000;border-right-color:#ffffff;border-bottom-color:#ffffff}
+a {text-decoration: none; color: #000000}
+</style>
+<script language=javascript src="inc/Dialog.js"></script>
+<script language=javascript src="inc/jq.js"></script>
+
+</script>
+</HEAD>
+<body bgcolor="#FFFBFF" leftmargin="10" topmargin="0" >
+
+<script language=Javascript>
+
+var glbPaste=false;
+var glbOrder='ASC';
+var glbEditFname='';
+
+function selAll(form){
+	if (!form.strSelector) return false;
+	if (isDefined(form.strSelector.checked)){
+			form.strSelector.checked=true;
+			return;
+		}
+	if (isDefined(form.strSelector.length)){
+			for (i=0;i<form.strSelector.length;i++)
+				form.strSelector[i].checked=true;
+	}
+}
+function blSelect(form){
+	if (!form.strSelector) return false;
+	if (isDefined(form.strSelector)){
+		if (isDefined(form.strSelector.checked)){
+				return form.strSelector.checked;
+			}
+			
+		blChoiceOne=false;
+		for (i=0;i<form.strSelector.length;i++){
+				if (form.strSelector[i].checked)
+					return true;
+			}
+				return false;
+	}else{
+			return false;
+	}
+}
+
+function isDefined(xobj){
+	if (typeof(xobj)=="undefined")
+		return false;
+	else
+		return true;
+}
+
+function selRev(form){
+	if (!form.strSelector) return false;
+	if (isDefined(form.strSelector.checked)){
+		form.strSelector.checked=!form.strSelector.checked;
+		return;
+	}
+	if (isDefined(form.strSelector.length)){
+		for (i=0;i<form.strSelector.length;i++){
+			form.strSelector[i].checked=!form.strSelector[i].checked;
+		}
+	}
+}
+function validName(str){
+	reg=/^[^\/\\:<>\*\|\x22\?]{1,128}$/;
+	return reg.test(str);
+	return true;
+}
+
+function copy(form){
+	if (!blSelect(form)){
+			alert('ѡҪƵļ');
+			return;
+	}
+	form.strCommand.value='COPY';
+	form.submit();
+}
+
+function calSize(form){
+	if (!blSelect(form)){
+			alert('ѡҪСļļ');
+			return;
+	}
+	form.strCommand.value='CALSIZE';
+	form.submit();
+}
+
+
+function cut(form){
+	if (!blSelect(form)){
+			alert('ѡҪеļ');
+			return;
+	}
+	form.strCommand.value='CUT';
+	form.submit();
+}
+
+function del(form){
+	if (!blSelect(form)){
+		alert('ѡҪɾļ');
+		return;
+	}
+	var isdo=false;
+	/*
+	$.each($("input[name='strSelector']:checkbox"),function(i,n){
+		if($(n).attr("checked")){
+			if(confirm('ȷɾ'+ $(n).val() +'')){
+				isdo=true;
+			}else{
+				return false;
+			}
+		}
+	});
+	*/
+	isdo=confirm('ȷҪɾļ');
+	if (isdo){
+		form.strCommand.value='DELETE';
+		form.submit();
+	}
+}
+
+function paste(){
+	form=document.form1;
+	if (glbPaste){
+	
+	}else{
+		alert("ѡҪƶ/Ƶļ\"\"\"\"ٵ\"ճ\"");
+		return;
+	}
+	form.strCommand.value='PASTE';
+	form.submit();
+}
+
+function searchFiles(){
+	location.href='searchFiles.asp';
+}
+
+function newFolder(strFolder){
+	form=document.form1;
+	if (strFolder==null)	return;
+	
+	if (!validName(strFolder)){
+		alert('Ϸļ');
+		return;
+	}
+	form.strCommand.value='NEWFOLDER';
+	form.strValue.value=strFolder;
+	form.submit();
+}
+
+function newFile(strFilename){
+	form=document.form1;
+	
+	if (strFilename==null) return;
+	if (!validName(strFilename)){
+		alert('Ϸļ');
+		return;
+	}
+	form.strCommand.value='NEWFILE';
+	form.strValue.value=strFilename;
+	form.submit();
+}
+
+function upload(form){
+	location.href='uploadFiles.asp';
+}
+
+function downFile(fname){
+	form=document.form1;
+	if (validName(fname)){
+		form.strCommand.value='DOWN';
+		form.strValue.value=fname;
+		form.submit();
+	}
+}
+function rename(fname){
+	glbEditFname=fname;
+	sAlert('µ:',true,'realrename');
+}
+
+function realrename(newname){
+	form=document.form1;
+	if (validName(glbEditFname)){
+		if (!validName(newname)){
+			alert('Чļ');	
+			return ;
+		}
+		form.strCommand.value='RENAME';
+		form.strValue.value=glbEditFname+':'+newname;
+		form.submit();
+	}
+}
+
+function editFile(fname){
+	if (validName(fname)){
+		location.href="toEditFile.asp?fname="+fname;
+	}
+}
+
+function sortBy(fdNo){
+	form=document.form1;
+	if (!isNaN(fdNo)){
+		fdNo=Number(fdNo);
+		if (fdNo>=1 && fdNo<=6){
+			if (glbOrder=='ASC')
+				form.strSortDirect.value='DESC';
+			else
+				form.strSortDirect.value='ASC';
+				form.strSortBy.value=fdNo.toString();
+				form.strCommand.value='';
+				form.submit();
+		}
+	}
+}
+
+
+function cdDotDot(form){
+	form.strCommand.value='GETPARENT';
+	form.submit();
+}
+
+function chdir(form,newPath){
+	if (validName(newPath)){
+		form.strCommand.value='CHDIR';
+		form.strValue.value=newPath;
+		form.submit();
+	}
+}
+
+function selectOne(iIndex){
+	$.each($("input[name='strSelector']:checkbox"),function(i,n){
+		if(i==iIndex)
+			$(n).attr("checked",!$(n).attr("checked"));
+	});
+	
+}
+function caladmin(form){
+	form.strCommand.value='caladmin';
+	form.submit();
+}
+function quit(form){
+	if (confirm('ȷ˳?')){
+		form.strCommand.value='QUIT';
+		form.submit();
+	}
+}
+function getcacls(file_name,ii){
+	var info="strCommand=cacls&strValue="+escape(file_name);
+	var doobj= $("#tr_"+ii+"");
+	delcacls(ii);
+	doobj.after("<tr id=\"tr_c_"+ ii +"\"><td colspan=8>Ժ󡣡</td><td align=\"center\"></td></tr>");
+	$.ajax({
+			   type: "POST",
+			   url: window.location.pathname,
+			   cache:false,
+			   timeout:10000,
+			   data:info,
+			   success: function(data){		
+				  $("#tr_c_"+ii+" td:eq(0)").html(data);
+				  $("#tr_c_"+ii+" td:eq(1)").html("<a href=# onclick=\"javascript:delcacls("+ ii +")\">[]</a>");
+			   }
+			}); 
+}
+function delcacls(ii){
+	$("#tr_c_"+ii).remove();
+}
+</script>
+
+<form name="form1" action="/FileManager/main.asp" method="post">
+<table width="100%" border="0" cellspacing="0" cellpadding="0">
+  <tr> 
+    <td>
+      <table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#E7EBFF" style="border-bottom:1px solid #003399" height="47">
+        <tr>
+          <td width="6%" align="center"><img src="img/filemanager.gif" width="33" height="32" ></td>
+          <td width="94%"><font color="#003399"><b style="word-spacing:20px;font-size:20px">ļ(վ:szmellow)</b></font></td>
+        </tr>
+      </table>
+    </td>
+  </tr>
+<tr >
+    <td bgcolor="#FFFFFF" height="10"> 
+      </td>
+  </tr>
+  <tr>
+    <td valign="middle" bgcolor="#EEEEEE"  style="height:10px"><fieldset><legend></legend> 
+      <ul style="list-style-type:none;margin:3px">
+        <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:copy(document.form1)"><img src="img/copy.gif" width="16" height="16" hspace="3" border="0"></a></li>
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:cut(document.form1);"><img src="img/cut.gif" width="16" height="16" hspace="3" border="0"></a></li>
+        <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:paste();"><img src="img/paste.gif" width="16" height="16" hspace="3" border="0"><font color="#666666">ճ</font></a></li>
+          <li Class="btoff"  onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:del(document.form1);"><img src="img/del.gif" width="16" height="16" hspace="3" border="0">ɾ</a></li>
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:searchFiles();"><img src="img/search.gif" width="16" height="16" hspace="3" border="0"></a></li>
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:sAlert('ļ:',true,'newFile')"><img src="img/newFile.gif" width="16" height="16" hspace="3" border="0">½ļ</a></li>
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:sAlert('µļ:',true,'newFolder');"><img src="img/newfolder.gif" width="16" height="16" hspace="3" border="0">½Ŀ¼</a></li>
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:upload();"><img src="img/upload.gif" width="16" height="16" hspace="3" border="0">ϴļ</a></li>
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:calSize(document.form1);"><img src="img/size.gif" width="16" height="16" hspace="3" border="0">С</a></li>
+          
+          <li Class="btoff" onMouseOver="this.className='bton'" onMouseDown="this.className='btdown'" onMouseUp="this.className='bton'" onMouseOut="this.className='btoff'"><a href="javascript:quit(document.form1);"><img src="img/exit.gif" width="16" height="16" hspace="3" border="0">˳</a></li>
+      </ul>
+      </fieldset></td>
+  </tr>
+<tr >
+    <td height=20>
+    </td>
+  </tr>
+<tr >
+    <td height="30">
+        <font color="#0000FF">ǰ·:</font><img src="img/cwd.gif" width="15" height="14" hspace="2"><font color="#336600"><b>\wwwroot\img\</b></font>(<img src="img/parent.gif" width="15" height="15"><a href="javascript:cdDotDot(document.form1);"><u>ϼĿ¼</u></a>)<br>
+      <hr noshade size="1">
+    </td>
+  </tr>
+<tr >
+      <td height="93"> <fieldset><legend>ļб</legend> 
+        <table width="100%" border="0" cellspacing="1" cellpadding="3" id="filemsg">
+          <tr bgcolor="#D6DFF7" valign="bottom"> 
+            <td width="6%" align="right"> 
+              <input type="button" name="Button" value="ȫѡ" onClick="selAll(this.form);">
+            </td>
+            <td width="3%">&nbsp;</td>
+            <td width="30%" bgcolor=#ffccee> 
+              <div align="left"><a href="javascript:sortBy(1)"><u><font color="#0000FF">ļ</font></u></a><img src=img/arrow_up.gif></div>
+            </td>
+            <td width="6%"  align="right"><a href="javascript:sortBy(2);"><u><font color="#0000FF">С</font></u></a></td>
+            <td width="10%"  ><a href="javascript:sortBy(3);"><u><font color="#0000FF"></font></u></a></td>
+            <td width="15%"  ><a href="javascript:sortBy(4);"><u><font color="#0000FF"></font></u></a></td>
+            <td width="14%"  ><a href="javascript:sortBy(5);"><u><font color="#0000FF">޸</font></u></a></td>
+            <td width="6%"  ><a href="javascript:sortBy(6);"><u><font color="#0000FF"></font></u></a></td>
+            <td align="center" width="10%">/༭/</td>
+          </tr>
+          <tr > 
+            <td width="6%" height="23">&nbsp;</td>
+            <td width="3%" height="23" align="right"><img src="img/parent.gif" width="15" height="15"></td>
+            <td width="30%" height="23"><a href="javascript:cdDotDot(document.form1);"><u>ϼĿ¼</u></a></td>
+            <td width="6%" align="right" height="23">&nbsp;</td>
+            <td width="10%" height="23">&nbsp;</td>
+            <td width="15%" height="23">&nbsp;</td>
+            <td width="14%" height="23">&nbsp;</td>
+            <td width="6%" height="23">&nbsp;</td>
+            <td height="23" width="10%">&nbsp;</td>
+          </tr>
+          
+          <tr bgcolor=#FFFFFF onClick="selectOne(0);" onMouseOver="this.style.background='#D2F0FD';" onMouseOut="this.style.background='#FFFFFF'" ondblClick="downFile('35.gif');" id="tr_0"> 
+            <td width="6%" align="right"> 
+			 
+              <input type="checkbox" name="strSelector" value="35.gif" id="strSelector" onClick="selectOne(0);">
+			 
+            </td>
+            <td width="3%" align="right"><img src="img/fileType/gif.jpg"></td>
+            <td width="30%"><a href="javascript:downFile('35.gif');">35.gif</a></td>
+            <td width="6%" align="right"  nowrap>320B</td>
+            <td width="10%">GIF ͼ</td>
+            <td width="15%">2013-03-12 16:08:17</td>
+            <td width="14%">2011-10-11 14:27:32</td>
+            <td width="6%">A</td>
+            <td align="center" width="10%"><a href="javascript:downFile('35.gif')"><img src="img/download.gif" width="16" height="16" hspace="2" alt="ļ" border="0"></a><a href="javascript:editFile('35.gif')"><img src="img/edit.gif" width="16" height="16" hspace="2" alt="༭" border="0"></a><a href="javascript:rename('35.gif')"><img src="img/rename.gif" width="16" height="16" hspace="2" alt="" border="0"></a>
+			</td>
+          </tr>
+          
+          <tr bgcolor=#F7F3F7 onClick="selectOne(1);" onMouseOver="this.style.background='#D2F0FD';" onMouseOut="this.style.background='#F7F3F7'" ondblClick="downFile('Thumbs.db');" id="tr_1"> 
+            <td width="6%" align="right"> 
+			 
+              <input type="checkbox" name="strSelector" value="Thumbs.db" id="strSelector" onClick="selectOne(1);">
+			 
+            </td>
+            <td width="3%" align="right"><img src="img/fileType/file.jpg"></td>
+            <td width="30%"><a href="javascript:downFile('Thumbs.db');">Thumbs.db</a></td>
+            <td width="6%" align="right"  nowrap>51K</td>
+            <td width="10%">Data Base File</td>
+            <td width="15%">2013-03-12 16:08:17</td>
+            <td width="14%">2013-03-09 22:19:56</td>
+            <td width="6%">ASH</td>
+            <td align="center" width="10%"><a href="javascript:downFile('Thumbs.db')"><img src="img/download.gif" width="16" height="16" hspace="2" alt="ļ" border="0"></a><a href="javascript:editFile('Thumbs.db')"><img src="img/edit.gif" width="16" height="16" hspace="2" alt="༭" border="0"></a><a href="javascript:rename('Thumbs.db')"><img src="img/rename.gif" width="16" height="16" hspace="2" alt="" border="0"></a>
+			</td>
+          </tr>
+          
+          <tr bgcolor=#FFFFFF onClick="selectOne(2);" onMouseOver="this.style.background='#D2F0FD';" onMouseOut="this.style.background='#FFFFFF'" ondblClick="downFile('about.jpg');" id="tr_2"> 
+            <td width="6%" align="right"> 
+			 
+              <input type="checkbox" name="strSelector" value="about.jpg" id="strSelector" onClick="selectOne(2);">
+			 
+            </td>
+            <td width="3%" align="right"><img src="img/fileType/jpg.jpg"></td>
+            <td width="30%"><a href="javascript:downFile('about.jpg');">about.jpg</a></td>
+            <td width="6%" align="right"  nowrap>68.99K</td>
+            <td width="10%">JPEG ͼ</td>
+            <td width="15%">2013-03-12 16:08:17</td>
+            <td width="14%">2013-01-30 17:14:22</td>
+            <td width="6%">A</td>
+            <td align="center" width="10%"><a href="javascript:downFile('about.jpg')"><img src="img/download.gif" width="16" height="16" hspace="2" alt="ļ" border="0"></a><a href="javascript:editFile('about.jpg')"><img src="img/edit.gif" width="16" height="16" hspace="2" alt="༭" border="0"></a><a href="javascript:rename('about.jpg')"><img src="img/rename.gif" width="16" height="16" hspace="2" alt="" border="0"></a>
+			</td>
+          </tr>
+          
+          <tr bgcolor=#F7F3F7 onClick="selectOne(3);" onMouseOver="this.style.background='#D2F0FD';" onMouseOut="this.style.background='#F7F3F7'" ondblClick="downFile('about.swf');" id="tr_3"> 
+            <td width="6%" align="right"> 
+			 
+              <input type="checkbox" name="strSelector" value="about.swf" id="strSelector" onClick="selectOne(3);">
+			 
+            </td>
+            <td width="3%" align="right"><img src="img/fileType/swf.jpg"></td>
+            <td width="30%"><a href="javascript:downFile('about.swf');">about.swf</a></td>
+            <td width="6%" align="right"  nowrap>805.87K</td>
+            <td width="10%">Shockwave Flash Object</td>
+            <td width="15%">2013-03-12 16:08:17</td>
+            <td width="14%">2013-03-08 11:20:14</td>
+            <td width="6%">A</td>
+            <td align="center" width="10%"><a href="javascript:downFile('about.swf')"><img src="img/download.gif" width="16" height="16" hspace="2" alt="ļ" border="0"></a><a href="javascript:editFile('about.swf')"><img src="img/edit.gif" width="16" height="16" hspace="2" alt="༭" border="0"></a><a href="javascript:rename('about.swf')"><img src="img/rename.gif" width="16" height="16" hspace="2" alt="" border="0"></a>
+			</td>
+          </tr>
+          
+          <tr bgcolor=#FFFFFF onClick="selectOne(4);" onMouseOver="this.style.background='#D2F0FD';" onMouseOut="this.style.background='#FFFFFF'" ondblClick="downFile('banner.fla');" id="tr_4"> 
+            <td width="6%" align="right"> 
+			 
+              <input type="checkbox" name="strSelector" value="banner.fla" id="strSelector" onClick="selectOne(4);">
+			 
+            </td>
+            <td width="3%" align="right"><img src="img/fileType/file.jpg"></td>
+            <td width="30%"><a href="javascript:downFile('banner.fla');">banner.fla</a></td>
+            <td width="6%" align="right"  nowrap>1.04M</td>
+            <td width="10%">FLA ļ</td>
+            <td width="15%">2013-03-12 16:08:17</td>
+            <td width="14%">2013-02-17 09:48:46</td>
+            <td width="6%">A</td>
+            <td align="center" width="10%"><a href="javascript:downFile('banner.fla')"><img src="img/download.gif" width="16" height="16" hspace="2" alt="ļ" border="0"></a><a href="javasc
