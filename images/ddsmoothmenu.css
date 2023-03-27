@@ -1,0 +1,51 @@
+.ddsmoothmenu {
+	line-height:40px; background:#2c7bcf url(../images/bg_nav.gif) repeat-x 0 0; height:40px;
+}
+.ddsmoothmenu .left {
+background:url(../images/bg_nav_left.gif) no-repeat 0 0; width:14px; height:40px; float:left
+}
+.ddsmoothmenu .right {
+background:url(../images/bg_nav_right.gif) no-repeat 0 0; width:14px; height:40px; float:right
+}
+.ddsmoothmenu ul {
+	padding-right: 0px; padding-left: 0px; z-index: 100; float: left; padding-bottom: 0px; margin: 0px; padding-top: 0px; list-style-type: none
+}
+.ddsmoothmenu ul li {
+	display: block; float: left; line-height: 40px; position: relative; background:url(../images/bg_nav_li.gif) no-repeat right 0;
+}
+ html .ddsmoothmenu ul li {
+	float: left;  line-height:40px; position: relative; background:url(../images/bg_nav_li.gif) no-repeat right 0;
+}
+.ddsmoothmenu ul li a {
+	font-weight: bold; text-decoration: none;font-size:14px; color:#FFFFFF;  float:left; height:40px; line-height:40px; width:108px; text-align:center; display:block;
+}
+.ddsmoothmenu ul li a:hover {background:url(../images/bg_nav_hover.gif) no-repeat center 0; color:#004997}
+.ddsmoothmenu ul li .now {color:#fff}
+.ddsmoothmenu ul li ul {
+	left: 0px; visibility: hidden; position: absolute;  background:#fff; width:130px;
+}
+.ddsmoothmenu ul li ul li {
+	 display:block; line-height: 25px; border-bottom:1px solid #005cc1; padding:0; background:#014590;
+}
+.ddsmoothmenu ul li ul li a {
+	display: block; width:130px; text-decoration: none; color:#fff; font-size:13px; text-transform:none; font-weight:normal; height:auto!important; height:28px; min-height:28px; line-height:28px; text-align:left; text-align:center; background:none
+}
+.ddsmoothmenu ul li ul li a:hover {
+	color:#fff;
+	background:#0255b1;
+}
+.ddsmoothmenu ul li ul li ul {
+	top: 0px
+}
+.downarrowclass {
+	display: none; position: absolute
+}
+.rightarrowclass {
+	display: none; position: absolute
+}
+.ddshadow {
+	background: silver; left: 0px; width: 0px; position: absolute; top: 0px; height: 0px
+}
+.toplevelshadow {
+	opacity: 0.8
+}
